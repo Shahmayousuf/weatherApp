@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden!;
+}
+
+.App {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.main-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-image: url("image/background.png");
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(196, 174, 174, 0.363);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+
+  backdrop-filter: saturate(180%) blur(10px);
+  backdrop-filter: blur(10px);
+  position: relative;
+}
+.cardcontent {
+  margin-bottom: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cardcontent .heading1 {
+  font-family: cursive;
+}
+.icon {
+  width: auto;
+  height: auto;
+  position: absolute;
+  bottom: 35px;
+}
+.icon img {
+  width: 80px;
+  height: 80px;
+}
